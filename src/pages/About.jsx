@@ -7,7 +7,12 @@ function About() {
   return (
     <>
       <div className="about-page-container">
-        <img src={AboutImg} alt="about-hero" className="about-hero-image" />
+        <img
+          src={AboutImg}
+          alt="about-hero"
+          className="about-hero-image"
+          loading="lazy"
+        />
         <div className="about-page-content">
           <h1>Don’t squeeze in a sedan when you could relax in a van.</h1>
           <p>
